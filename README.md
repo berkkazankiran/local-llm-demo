@@ -13,22 +13,6 @@ Tool calling kullanılmadı. Python fonksiyonunu program doğrudan çağırır; 
 
 Ek Python paketi veya API anahtarı gerekmez. Kod Python standart kütüphanesini kullanır.
 
-## Kurulum
-
-1. [Ollama'yı](https://ollama.com/download/windows) kurup açın.
-2. Terminalde modeli indirin:
-
-```powershell
-ollama pull llama3.2:3b
-```
-
-3. İndirilen modeli kontrol edin:
-
-```powershell
-ollama list
-```
-
-İstekler gönderilirken Ollama çalışıyor olmalıdır. API adresi `http://127.0.0.1:11434/api/chat` şeklindedir. `127.0.0.1`, kodun çalıştığı bilgisayarı ifade eder.
 
 ## cURL ile tek API çağrısı
 
@@ -98,8 +82,3 @@ Streaming, bütün alternatif tahminleri veya kelime olasılıklarını gösterm
 
 Modelin yanıt vermesi, cevabının her zaman doğru olduğu anlamına gelmez. Program bağlantı veya model hatalarını ayrıca yakalamaz; bu durumda Python hata çıktısı gösterir.
 
-## Başvurulan dokümantasyon
-
-- [Ollama Quickstart](https://docs.ollama.com/quickstart)
-- [Chat API](https://docs.ollama.com/api/chat)
-- [Streaming](https://docs.ollama.com/capabilities/streaming)
